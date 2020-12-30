@@ -1,0 +1,300 @@
+header {
+  background-color: #bbbbbb;
+  padding: 20px 0;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.logo:hover {
+  color: crimson;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a:hover {
+  color: crimson;
+  text-decoration: underline;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 23px;
+  text-decoration: none;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.produtos li:hover {
+  border-color: crimson;
+}
+
+.produtos li:active {
+  border-color: rgb(124, 189, 241);
+}
+
+.produtos li:hover h2 {
+  font-size: 34px;
+}
+
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.produto-preco {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 10px;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.produto-descricao {
+  font-size: 18px;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+footer {
+  text-align: center;
+  background-image: url("img/bg.jpg");
+  padding: 40px 0;
+}
+
+.rodape {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 20px 0 0;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+main {
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label,
+form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 15px;
+  padding: 10px;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox {
+  margin: 20px 0 0;
+}
+
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  background-color: rgb(124, 189, 241);
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  transition: 1.5s all;
+  cursor: pointer;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.enviar:hover {
+  background-color: crimson;
+  transform: scale(1.2);
+}
+
+table {
+  margin: 20px 0 40px;
+}
+
+thead {
+  background: #555555;
+  color: white;
+  font-weight: bold;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+td,
+th {
+  border: 1px solid #000000;
+  padding: 8px 16px;
+  margin: 15px 0;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+/* Página principal*/
+
+.banner {
+  width: 100%;
+}
+
+.principal {
+  padding: 3em 0;
+  background: #fefefe;
+  width: 940px;
+  margin: 0 auto;
+}
+.titulo-principal {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+  font-family: "Yellowtail", cursive;
+  padding: 20px;
+  color: rgb(0, 0, 0, 0.4);
+}
+
+.titulo-principal:hover {
+  color: crimson;
+}
+
+.principal p {
+  margin: 0 0 1em;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 20px;
+}
+
+.principal strong {
+  font-weight: bold;
+}
+
+.principal em {
+  font-style: italic;
+  color: crimson;
+}
+
+.itens {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 20px;
+  line-height: 1.5 50%;
+}
+
+.itens:before {
+  content: "🟊";
+}
+
+.itens:first-child {
+  font-weight: bold;
+}
+
+.imagem-beneficios {
+  width: 60%;
+  transition: 400ms;
+  box-shadow: 10px 10px #555555;
+}
+
+.imagem-beneficios:hover {
+  opacity: 1;
+}
+
+.beneficios {
+  padding: 2em 0;
+  background: #888888;
+}
+
+.lista-beneficios {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.conteudo-beneficios {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.lista-beneficios {
+  width: 40%;
+}
+
+.utensilios {
+  width: 150px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.video {
+  width: 560px;
+  margin: 4em auto;
+}
+
+.mapa {
+  padding: 1em 0;
+  background: linear-gradient(#fefefe, #888888);
+}
+
+.mapa p {
+  text-align: center;
+  margin: 0 0 2em;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.mapa-conteudo {
+  width: 940px;
+  margin: 0 auto;
+}
+
+@media screen and(max-width:480px) {
+  .caixa,
+  .principal,
+  .conteudo-beneficios,
+  .mapa-conteudo,
+  .video {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .lista-beneficios,
+  .imagem-beneficios {
+    width: 100%;
+  }
+  
+}
